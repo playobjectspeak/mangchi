@@ -1,0 +1,160 @@
+
+
+li {
+    font-size: 1.4em;
+}
+
+#about {
+    height: 800px;
+    background-image: white;
+    background-size: cover;
+  
+}
+
+* { 
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    
+} 
+
+.first {
+    margin-top: 1.5em;
+    margin-left: .4em;
+    margin-right: 1em;
+    color: black;
+    line-height: 1.8em
+    
+}
+
+h1 {
+    font-size: 6em;
+    color: black;
+}
+    
+.glyphicon {
+    margin-top: 0em;
+    font-size: 5em;
+    color: black;
+    padding-left: 7em;
+
+    
+}
+
+#works {
+     height:1500px;
+     background-color:  white;
+     margin-top: 2em;
+     margin-bottom: 2em;
+}
+
+#contact {
+     height: 600px;
+     background-color:  white;
+}
+
+.second {
+     font-size: 2.5em;
+     margin-top: .1em;
+     color: black;
+}
+
+
+h5 {
+    position: absolute;
+    margin-top: .5em;
+    color: black
+}
+p {
+    margin-top: 1em;
+    margin-bottom: 5em;
+    color: black;
+
+}
+
+.third {
+    margin-top: 1.5em;
+}
+h2 {
+    text-align: center;
+    color: black;
+}
+h3 {
+    padding: 1em;
+    color: black;
+
+}
+
+footer{
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+}
+
+
+.navbar {
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: black;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: thick solid #212121;
+    color: black;
+}
+
+/*
+.navbar-brand {
+    color: black;
+}*/
+
+
+
+.card-container {
+    perspective: 500em;
+    position: relative;
+}
+
+.card {
+    transition: all 0.3s ease;
+     transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    margin-top: 1.5em;
+/*    width: 100%;*/
+    backface-visibility: hidden;
+}
+
+.back {
+    top:0;
+    left:0;
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+
+
+.img1 {
+    height: 30vh;
+    width: 100%;
+    background-image: url(flower.jpg);
+    background-size:cover;
+}
+
+.img2 {
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    border:  1em solid white;
+   
+}
